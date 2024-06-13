@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/fondoUno.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor {
+    height: 85vh;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.417);
+    border-radius: 2vmax;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto {
+    margin-top: 0.5vmax;
+    width: 25rem;
+    height: auto;
+}
+
+.botoni {
+    padding: 0.5vmax 2vmax;
+    color: white;
+    background: linear-gradient(to left, rgb(254, 134, 28), rgb(235, 38, 212) 60%, rgb(254, 134, 28));
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.613);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |  */
+
+@media screen and (max-width:2220px) {
+
+
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   */
+
+
+
+@media screen and (max-width:1400px) {
+    .foto {
+        max-width: 25rem;
+        height: auto;
+
+    }
+
+    
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2vmax;
+        margin-top: 0.5vmax;
+    }
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  */
+
+
+@media screen and (max-width:1200px) {
+    
+    .foto {
+        width: 25rem;
+        height: auto;
+
+    }
+
+    
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2vmax;
+        margin-top: 0.5vmax;
+    }
+
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | */
+
+
+@media screen and (max-width:992px) {
+
+    
+    .foto {
+        width: 25rem;
+        height: auto;
+
+    }
+
+    
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2.5vmax;
+        margin-top: 1vmax;
+    }
+
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | */
+
+
+
+@media screen and (max-width:768px) {
+
+    .foto {
+        width: 25rem;
+        height: auto;
+
+    }
+
+    
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2.5vmax;
+        margin-top: 1.5vmax;
+    }
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   |*/
+
+@media screen and (max-width:576px) {
+
+    .contenedor {
+        height: 90vh;
+        width: 90vw;
+
+    }
+    .foto {
+        width: 21rem;
+        height: auto;
+
+    }
+
+    
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2.5vmax;
+        margin-top: 3vmax;
+    }
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   */
+
+@media screen and (max-width:320px) {
+
+    .foto {
+        width: 18rem;
+        height: auto;
+
+    }
+
+    .botoni {
+        padding: 1vmax 2vmax;
+        font-size: 2.5vmax;
+        margin-top: 4vmax;
+
+    }
+
+}
